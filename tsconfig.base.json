@@ -1,7 +1,8 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "rootDir": ".",
+    "rootDir": "./src/",
+    "outDir": "./dist/",
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
@@ -13,7 +14,7 @@
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {}
   },
   "exclude": ["node_modules", "tmp"]
