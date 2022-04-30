@@ -3,16 +3,15 @@ import type { PieceContext } from '@sapphire/pieces'
 import type { Message } from 'revolt.js'
 
 export class PingCommand extends Command {
-	constructor(context: PieceContext) {
-		super(context, {
+  constructor(context: PieceContext) {
+    super(context, {
       description: 'A command'
     })
-	}
+  }
 
-	public async run(message: Message) {
-    console.log('fumo fumofumo fumo')
-		return message.reply({
+  public async run(message: Message) {
+    return message.reply({
       content: 'Hola'
     })
-	}
+  }
 }

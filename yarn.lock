@@ -3323,7 +3323,7 @@ __metadata:
     prettier: 2.5.1
     revolt.js: 6.0.0-rc.21
     tslib: 2.4.0
-    typescript: next
+    typescript: ^4.6.4
   languageName: unknown
   linkType: soft
 
@@ -6699,23 +6699,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.6.2":
+"typescript@npm:^4.6.2, typescript@npm:^4.6.4":
   version: 4.6.4
   resolution: "typescript@npm:4.6.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: e7bfcc39cd4571a63a54e5ea21f16b8445268b9900bf55aee0e02ad981be576acc140eba24f1af5e3c1457767c96cea6d12861768fb386cf3ffb34013718631a
-  languageName: node
-  linkType: hard
-
-"typescript@npm:next":
-  version: 4.7.0-dev.20220429
-  resolution: "typescript@npm:4.7.0-dev.20220429"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 226579a2982e54f402dbef395b39574ecff5023d7a5bc14ebf67b8178f4b4f89f6da6ff4f9a3ce274b7eec07a98d3c3214f239e2e3c5960538dd44f06a3a283a
   languageName: node
   linkType: hard
 
@@ -6729,23 +6719,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.6.2#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.6.2#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>":
   version: 4.6.4
   resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 1cb434fbc637d347be90e3a0c6cd05e33c38f941713c8786d3031faf1842c2c148ba91d2fac01e7276b0ae3249b8633f1660e32686cc7a8c6a8fd5361dc52c66
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@next#~builtin<compat/typescript>":
-  version: 4.7.0-dev.20220429
-  resolution: "typescript@patch:typescript@npm%3A4.7.0-dev.20220429#~builtin<compat/typescript>::version=4.7.0-dev.20220429&hash=bda367"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 18af85df175792e70149fbfad6889a213db8f5d81d074e5ec761f22916d9b9ab51e9d564e85da5e4fa388056deb0bd617ad3e6e4f9160c4da9e89e9095fc87d1
   languageName: node
   linkType: hard
 
